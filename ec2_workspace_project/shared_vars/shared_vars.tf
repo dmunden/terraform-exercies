@@ -1,7 +1,7 @@
 locals {
 	env = "${terraform.workspace}"
 
-	env_suffix_env{
+	env_suffix_env = {
 		default = "Staging"
 		staging = "staging"
 		production = "production"
